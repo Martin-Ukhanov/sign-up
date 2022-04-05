@@ -54,10 +54,71 @@ body {
 
 form {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #form-container {
+    width: 100%;
+    margin-bottom: 30px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: white;
+}
+
+#input-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    padding-bottom: 30px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    column-gap: 25%;
+}
+
+label, input {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 0.9rem;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    appearance: none;
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+    padding: 4px;
+    font-size: 100%;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    background-color: #596D48;
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+button:hover {
+    border: 2px solid black;
+}
+
+a:link, a:visited {
+    color: #596D48;
 }
