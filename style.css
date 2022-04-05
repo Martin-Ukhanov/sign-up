@@ -1,0 +1,63 @@
+@font-face {
+    font-family: norse-bold;
+    src: url(fonts/Norse-Bold.otf);
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+}
+
+#left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-image: url(images/plant.jpg);
+    background-size: cover;
+}
+
+#text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: norse-bold;
+    font-size: 40px;
+}
+
+#text img {
+    width: 14%;
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ececec;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#right p {
+    width: 80%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+form {
+    width: 100%;
+}
+
+#form-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
